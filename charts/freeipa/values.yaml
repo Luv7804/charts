@@ -39,17 +39,17 @@ image:
 # machineconfig:
 #   ignition_version: 3.1.0
 
-args:
-  realm: EXAMPLE.ORG
-  domain: example.org
-  dspassword: ASDF1poiu2QWER3mnbv4  # pragma: allowlist secret
-  adminpassword: ASDF1poiu2QWER3mnbv4  # pragma: allowlist secret
-  nohostdns: true
-  nontp: true
-  setupdns: false
-  autoforwarders: true  # if setup dns is true thiw will be applicable
-  allowzoneoverlap: true  # if setup dns is true thiw will be applicable
-  sshtrustdns: false
+# args:
+#   realm: EXAMPLE.ORG
+#   domain: example.org
+#   dspassword: ASDF1poiu2QWER3mnbv4  # pragma: allowlist secret
+#   adminpassword: ASDF1poiu2QWER3mnbv4  # pragma: allowlist secret
+#   nohostdns: true
+#   nontp: true
+#   setupdns: false
+#   autoforwarders: true  # if setup dns is true thiw will be applicable
+#   allowzoneoverlap: true  # if setup dns is true thiw will be applicable
+#   sshtrustdns: false
 
 ## Enable persistence using Persistent Volume Claims
 ## ref: https://kubernetes.io/docs/user-guide/persistent-volumes/
