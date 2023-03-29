@@ -12,17 +12,17 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "centos-8-4.9.6"
 
-args:
-  realm: EXAMPLE.TESTY
-  domain: example.testy
-  dspassword: ASDF1poiu2QWER3mnbv4
-  adminpassword: ASDF1poiu2QWER3mnbv4
-  nohostdns: true
-  nontp: true
-  setupdns: false
-  autoforwarders: true # if setup dns is true thiw will be applicable
-  allowzoneoverlap: true # if setup dns is true thiw will be applicable
-  sshtrustdns: false
+# args:
+#   realm: EXAMPLE.TESTY
+#   domain: example.testy
+#   dspassword: ASDF1poiu2QWER3mnbv4
+#   adminpassword: ASDF1poiu2QWER3mnbv4
+#   nohostdns: true
+#   nontp: true
+#   setupdns: false
+#   autoforwarders: true # if setup dns is true thiw will be applicable
+#   allowzoneoverlap: true # if setup dns is true thiw will be applicable
+#   sshtrustdns: false
 
 volumestorage: 1Gi
 
